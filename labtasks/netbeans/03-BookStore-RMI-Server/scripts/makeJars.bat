@@ -1,4 +1,4 @@
-del /f ..\\libs\\BookStore*.jar
+del /f ..\\libs\\bookstore*.jar
 cd ..\\src
 javac -cp ..\\libs\\hibernate-jpa-2.1-api-1.0.0.Final.jar ro\\pub\\cs\\aipi\\lab03\\businesslogic\\*Interface.java ro\\pub\\cs\\aipi\\lab03\\general\\Constants.java ro\\pub\\cs\\aipi\\lab03\\entities\\PersistentEntity.java ro\\pub\\cs\\aipi\\lab03\\result\\*.java
 jar cvf bookstore-common.jar ro\\pub\\cs\\aipi\\lab03\\general\\Constants.class ro\\pub\\cs\\aipi\\lab03\\entities\\PersistentEntity.class
