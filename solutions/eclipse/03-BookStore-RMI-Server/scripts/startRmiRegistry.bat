@@ -1,1 +1,1 @@
-start rmiregistry 1099 -J-Djava.rmi.server.useCodebaseOnly=false
+start rmiregistry 1100 -J-Djava.rmi.server.useCodebaseOnly=false
