@@ -13,9 +13,9 @@ cp ../libs/bookstore-common.jar ../../03-BookStore-RMI-Client-BookManager/libs/
 cp ../libs/bookstore-bookmanager.jar ../../03-BookStore-RMI-Client-BookManager/libs/
 rm -f ../../03-BookStore-RMI-Client-BookPresentationManager/libs/*.jar
 mkdir ../../03-BookStore-RMI-Client-BookPresentationManager/libs
-copy ../libs/bookstore-common.jar ../../03-BookStore-RMI-Client-BookPresentationManager/libs/
-copy ../libs/bookstore-bookpresentationmanager.jar ../../03-BookStore-RMI-Client-BookPresentationManager/libs/
+cp ../libs/bookstore-common.jar ../../03-BookStore-RMI-Client-BookPresentationManager/libs/
+cp ../libs/bookstore-bookpresentationmanager.jar ../../03-BookStore-RMI-Client-BookPresentationManager/libs/
 rm -f ../../03-BookStore-RMI-Client-WriterManager/libs/*.jar
 mkdir ../../03-BookStore-RMI-Client-WriterManager/libs
-copy ../libs/bookstore-common.jar ../../03-BookStore-RMI-Client-WriterManager/libs/
-copy ../libs/bookstore-writermanager.jar ../../03-BookStore-RMI-Client-WriterManager/libs/
+cp ../libs/bookstore-common.jar ../../03-BookStore-RMI-Client-WriterManager/libs/
+cp ../libs/bookstore-writermanager.jar ../../03-BookStore-RMI-Client-WriterManager/libs/
